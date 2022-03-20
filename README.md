@@ -1,13 +1,22 @@
 This repository maintains a list of papers that apply **self-supervised learning to medical images**. Feel free to open an issue if you find any related paper is missed from the list.
 
-### List last modified since: Mar. 19, 2022.
+### List last modified since: Mar. 20, 2022.
 
 |Date|Title|Venue|Code|Paper|Modality
 |---|---|---|---|---|---|
 |2022|Generalized radiograph representation learning via cross-supervision between images and free-text radiology reports|Nature Machine Intelligence|[Github](https://github.com/funnyzhou/REFERS)|[Preprint](https://arxiv.org/abs/2111.03452), [Official](https://www.nature.com/articles/s42256-021-00425-9)|2D (X-ray)|
 |2021|GLoRIA: A Multimodal Global-Local Representation Learning Framework for Label-efficient Medical Image Recognition|ICCV|[Github](https://github.com/marshuang80/gloria)|[Official](https://openaccess.thecvf.com/content/ICCV2021/papers/Huang_GLoRIA_A_Multimodal_Global-Local_Representation_Learning_Framework_for_Label-Efficient_Medical_ICCV_2021_paper.pdf)|2D (X-ray)|
-|2021|Preservational Learning Improves Self-supervised Medical Image Models by Reconstructing Diverse Contexts|ICCV|[Github](https://github.com/Luchixiang/PCRL)|[Preprint](https://arxiv.org/abs/2109.04379), [Official](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Preservational_Learning_Improves_Self-Supervised_Medical_Image_Models_by_Reconstructing_Diverse_ICCV_2021_paper.pdf)|2D (X-ray) & 3D (Abdominal CT, Brain MRI)|
+|2021|Preservational Learning Improves Self-supervised Medical Image Models by Reconstructing Diverse Contexts|ICCV|[Github](https://github.com/Luchixiang/PCRL)|[Preprint](https://arxiv.org/abs/2109.04379), [Official](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Preservational_Learning_Improves_Self-Supervised_Medical_Image_Models_by_Reconstructing_Diverse_ICCV_2021_paper.pdf)|2D (X-ray) & 3D (CT, MRI)|
+|2021|Big Self-Supervised Models Advance Medical Image Classification|ICCV|N/A|[Preprint](https://arxiv.org/abs/2101.05224)|2D (Dermatology, X-ray)|
+|2021|Self-Supervised driven Consistency Training for Annotation Efficient Histopathology Image Analysis|MedIA|[Github](https://github.com/srinidhiPY/SSL_CR_Histo)|[Preprint](https://arxiv.org/pdf/2102.03897.pdf), [Official](https://linkinghub.elsevier.com/retrieve/pii/S1361841521003017)|2D (Pathology)|
+|2021|Transferable Visual Words: Exploiting the Semantics of Anatomical Patterns for Self-supervised Learning|TMI|[Github](https://github.com/fhaghighi/TransVW)|[Preprint](https://arxiv.org/abs/2102.10680)|2D (X-ray) & 3D (CT, MRI)|
+|2021|Self-Path: Self-supervision for Classification of Pathology Images with Limited Annotations|TMI|N/A|[Preprint](https://arxiv.org/pdf/2008.05571.pdf), [Official](https://ieeexplore.ieee.org/abstract/document/9343323)|2D (Pathology)|
+|2021|Interpretability-Driven Sample Selection Using Self Supervised Learning for Disease Classification and Segmentation|TMI|N/A|[Preprint](https://arxiv.org/pdf/2104.06087.pdf), [Official](https://ieeexplore.ieee.org/document/9361645)|2D (X-ray, Pathology)|
+|2021|SMORE: A Self-Supervised Anti-Aliasing and Super-Resolution Algorithm for MRI Using Deep Learning|TMI|N/A|[Official](https://ieeexplore.ieee.org/document/9253710)|3D (MRI)|
+|2021|Context Matters: Graph-based Self-supervised Representation Learning for Medical Images|AAAI|[Github](https://github.com/batmanlab/Context_Aware_SSL)|[Preprint](https://arxiv.org/pdf/2012.06457.pdf)|3D (Lung CT)|
 |2021|Multimodal Self-Supervised Learning for Medical Image Analysis|IPMI|N/A|[Preprint](https://arxiv.org/pdf/1912.05396.pdf)|3D (MRI)|
+|2021|MoCo-CXR: MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models|MIDL|[Github](https://github.com/stanfordmlgroup/MoCo-CXR)|[Official](https://openreview.net/pdf?id=LO7Su0-dPJl)|2D (X-ray)|
+|2021|How Transferable are Self-supervised Features in Medical Image Classification Tasks?|ML4H|N/A|[Preprint](https://proceedings.mlr.press/v158/truong21a/truong21a.pdf)|2D (X-ray, Pathology, Retinopathy)|
 |2020|Comparing to Learn: Surpassing ImageNet Pretraining on Radiographs By Comparing Image Representations|MICCAI|[Github](https://github.com/funnyzhou/C2L_MICCAI2020)|[Preprint](https://arxiv.org/abs/2007.07423)|2D (X-ray)|
 |2020|Contrastive Rendering for Ultrasound Image Segmentation|MICCAI|N/A|[Preprint](https://arxiv.org/abs/2010.04928)|2D (Ultrasound)|
 |2020|Region-of-Interest Guided Supervoxel Inpainting for Self-supervision|MICCAI|[Github](https://github.com/DeepK/inpainting)|[Preprint](https://arxiv.org/pdf/2006.15186.pdf)|3D (Brain MRI)|
@@ -20,6 +29,7 @@ This repository maintains a list of papers that apply **self-supervised learning
 |2020|Leveraging Self-supervised Denoising for Image Segmentation|ISBI|[Github](https://github.com/juglab/VoidSeg)|N/A|2D (Cell)|
 |2020|PGL: Prior-Guided Local Self-supervised Learning for 3D Medical Image Segmentation|N/A|N/A|[Preprint](https://arxiv.org/abs/2011.12640)|3D (Abdominal CT)|
 |2019|From voxels to pixels and back: Self-supervision in natural-image reconstruction from fMRI|NeurIPS|[Github](https://github.com/WeizmannVision/ssfmri2im)|[Preprint](https://arxiv.org/abs/1907.02431), [Official](https://proceedings.neurips.cc/paper/2019/file/7d2be41b1bde6ff8fe45150c37488ebb-Paper.pdf)|2D (fMRI, Natural images)|
+|2019|Models Genesis: Generic Autodidactic Models for 3D Medical Image Analysis|MICCAI|[Github](https://github.com/MrGiovanni/ModelsGenesis)|2D (X-ray) & 3D (CT, MRI)|
 |2019|Self-Supervised Learning for Cardiac MR Image Segmentation by Anatomical Position Prediction|MICCAI|N/A|[Preprint](https://arxiv.org/abs/1907.02757)|3D (Cardiac MRI)|
 |2019|Self-supervised Feature Learning for 3D Medical Images by Playing a Rubik’s Cube|MICCAI|N/A|[Preprint](https://arxiv.org/abs/1910.02241)|3D (Brain MRI)|
 |2019|How to Learn from Unlabeled Volume Data: Self-supervised 3D Context Feature Learning|MICCAI|[Github](https://github.com/multimodallearning/miccai19_self_supervision)|[Official](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_72)|3D (Abdominal CT)|
